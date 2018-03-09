@@ -1,6 +1,11 @@
 
 $(document).ready(function(){
+
+  $("#searchBtn").on("click", function(){
+    console.log("searching")
+  })
   var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
+  var query =
   url += '?' + $.param({
     'api-key': "4e8ab05444a446ce9597076968189154",
     'q': "elon%20musk",
