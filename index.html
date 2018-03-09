@@ -14,7 +14,7 @@
             crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
-        <script src="assets/javascript/app.js"></script>
+        <script src="search.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 </head>
@@ -37,20 +37,20 @@
                 <form>
                     Search Term:
                     <br>
-                    <input class="input-text" type="text" name="firstLast" value="">
+                    <input id="searchTerm" class="input-text" type="text" name="firstLast" value="">
                     <br> Number of Records to Retrieve:
                     <br>
-                    <input class="input-text" type="text" value="">
+                    <input id="numRecords" class="input-text" type="text" value="">
                     <br> Start Year (Optional):
                     <br>
-                    <input class="input-text" type="text" value="">
+                    <input id="startYear" class="input-text" type="text" value="">
                     <br> End Year (Optional):
                     <br>
-                    <input class="input-text" type="text" value="">
+                    <input id="endYear" class="input-text" type="text" value="">
                     <br>
                     <br>
-                    <input class="btn" type="submit" value="Search">
-                    <input class="btn" type="submit" value="Clear Results">
+                    <input id="searchBtn" class="btn" type="submit" value="Search">
+                    <input id="clearBtn" class="btn" type="submit" value="Clear Results">
                 </form>
             </div>
         </div>
