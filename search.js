@@ -1,7 +1,8 @@
 
 $(document).ready(function(){
 
-  $("#searchBtn").on("click", function(){
+  $("#searchBtn").on("click", function(e){
+    e.preventDefault();
     var searchTerm =  $("#searchTerm").val()
     var numRecords = $("#numRecords").val()
     var startYear = $("#startYear").val()

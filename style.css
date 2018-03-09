@@ -1,4 +1,32 @@
+/* MAIN STYLES */
+
+.main-content {
+    padding: 40px;
+}
+
+.input-text {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.panel-body {
+    padding: 40px;
+}
+
+/* HEADER STYLES */
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
 .jumbotron {
-    background: cornflowerblue;
+    background: rgb(59, 68, 206);
     color: white;
 }
+
+.panel-heading {
+    background: rgb(59, 61, 83);
+}
+
+
+
